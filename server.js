@@ -10,10 +10,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // gives server access to static files, will generate by npm run build 
-app.use(express.static('./client/mern-azure/build/'))
+// app.use(express.static('./client/mern-azure/build/'))
 
 app.get("/", (request, response) => {
-    response.sendFile("index.html", { root: './client/mern-azure/build/' })
+    response.sendFile("index.html", { root: __dirname })
+    // response.sendFile("index.html", { root: '/client/mern-azure/build/' })
 })
 
 
