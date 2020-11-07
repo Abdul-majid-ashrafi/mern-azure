@@ -19,6 +19,7 @@ class App extends Component {
 
   render() {
     const { thoughts } = this.state;
+    console.log(thoughts)
     return (
       <div className="App">
         {/* Buttons to interact with API */}
