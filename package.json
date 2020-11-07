@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "cd client/mern-azure && npm run build && cd ../.. && node server",
+    "dev": "cd client && npm run build && cd ../.. && nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
