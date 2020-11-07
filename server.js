@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('./client/mern-azure/build/'))
 
 app.get("/", (request, response) => {
-    // response.sendFile("index.html", { root: __dirname })
-    response.sendFile("index.html", { root: __dirname + './client/mern-azure/build/' })
+    response.sendFile("index.html", { root: __dirname })
+    // response.sendFile("index.html", { root: './client/mern-azure/build/' })
 })
 
 
@@ -39,6 +39,7 @@ if (app.get('env') === 'development') {
                 error
             });
         } else {
+            console.log(error)
             res.send({
                 message: error.message,
                 error
