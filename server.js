@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('./client/mern-azure/build/'))
 
 app.get("/", (request, response) => {
-    response.sendFile("index.html", { root: __dirname })
-    // response.sendFile("index.html", { root: './client/mern-azure/build/' })
+    // response.sendFile("index.html", { root: __dirname })
+    response.sendFile("index.html", { root: './client/mern-azure/build/' })
 })
 
 
