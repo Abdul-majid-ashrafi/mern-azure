@@ -17,7 +17,6 @@ app.get("/", (request, response) => {
     response.sendFile("index.html", { root: './client/mern-azure/build/' })
 })
 
-
 app.use("/api/", require('./server/route/thoughts-route'))
 
 
