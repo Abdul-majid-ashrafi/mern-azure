@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "node server",
-    "start": "cd client/mern-azure && npm run build && cd ../.. && node server",
+    "start": "node server",
+    "dev": "cd client/mern-azure && npm run build && cd ../.. && node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
