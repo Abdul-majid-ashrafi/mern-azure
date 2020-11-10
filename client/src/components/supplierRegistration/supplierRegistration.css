@@ -1,0 +1,28 @@
+.form-radio {
+  margin: 2% 5% !important ;
+}
+.reg-Form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.supplier-form-submit-button {
+  margin-left: 33% !important;
+}
+.verifiedaddress {
+    margin: 0% 10% !important;
+}
+.conatiner {
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 10px lightgray;
+}
+
+@media (max-width: 575px) {
+  .conatiner {
+    margin: 15px;
+  }
+  .supplier-form-submit-button {
+    margin-left: 0% !important;
+  }
+}

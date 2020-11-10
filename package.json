@@ -17,5 +17,6 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.12",
     "nodemon": "^2.0.6"
-  }
+  },
+  "proxy": "http://localhost:5001/"
 }
