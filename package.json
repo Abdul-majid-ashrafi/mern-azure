@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "cd client && npm run build && cd ../.. && node server",
+    "dev": "cd client && npm run build && cd ../.. && nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +17,5 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.12",
     "nodemon": "^2.0.6"
-  },
-  "proxy": "http://localhost:5001/"
+  }
 }

@@ -4,16 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
-.env
 
 # testing
 /coverage
 
 # production
-/build
-.firebaserc
-firebase.json
-.firebase
+# /build
 
 # misc
 .DS_Store
@@ -25,8 +21,3 @@ firebase.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-debug.log*
-
-package-lock.json
-
-test.js
